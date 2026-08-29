@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Caderno Dias</title>
+
+    <meta
+        name="description"
+        content="Caderno Dias — contos, fragmentos e ensaios."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            Caderno Dias
+        </a>
+
+        <nav class="navigation">
+            <a href="#contos">Contos</a>
+            <a href="#fragmentos">Fragmentos</a>
+            <a href="#ensaios">Ensaios</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="intro">
+
+            <p>
+                Contos, fragmentos e ensaios.
+            </p>
+
+            <p>
+                Um lugar para guardar aquilo que merece permanecer.
+            </p>
+
+        </section>
+
+
+        <section class="featured">
+
+            <p class="section-label">Em destaque</p>
+
+            <article class="featured-story">
+
+                <p class="category">Conto</p>
+
+                <h1>
+                    O abraço
+                </h1>
+
+                <p class="excerpt">
+                    Aconteceu no meio da avenida.
+                </p>
+
+                <a href="#" class="read-link">
+                    Ler conto
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <section id="contos" class="writing-section">
+
+            <p class="section-label">Contos</p>
+
+            <article class="writing">
+
+                <h2>
+                    O abraço
+                </h2>
+
+                <p class="writing-meta">
+                    Conto
+                </p>
+
+            </article>
+
+            <article class="writing">
+
+                <h2>
+                    O julgamento
+                </h2>
+
+                <p class="writing-meta">
+                    Conto
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section id="fragmentos" class="writing-section">
+
+            <p class="section-label">Fragmentos</p>
+
+            <article class="writing">
+
+                <h2>
+                    Em breve
+                </h2>
+
+            </article>
+
+        </section>
+
+
+        <section id="ensaios" class="writing-section">
+
+            <p class="section-label">Ensaios</p>
+
+            <article class="writing">
+
+                <h2>
+                    Em breve
+                </h2>
+
+            </article>
+
+        </section>
+
+
+        <section id="sobre" class="about">
+
+            <p class="section-label">Sobre</p>
+
+            <p class="about-text">
+                Caderno Dias é um espaço dedicado à escrita,
+                à memória e às coisas que permanecem depois
+                que a história termina.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <p>
+            © 2026 Caderno Dias
+        </p>
+
+    </footer>
+
+</body>
+</html>
