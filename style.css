@@ -1,6 +1,6 @@
-/* ------------------------------
-   Caderno Dias
-   ------------------------------ */
+/* =================================
+   CADERNO DIAS
+   ================================= */
 
 * {
     box-sizing: border-box;
@@ -12,53 +12,56 @@ html {
 
 body {
     margin: 0;
+
     background: #ffffff;
     color: #111111;
 
     font-family: Georgia, "Times New Roman", serif;
+
     font-size: 18px;
     line-height: 1.7;
 }
 
 
-/* ------------------------------
-   Header
-   ------------------------------ */
+/* =================================
+   HEADER
+   ================================= */
 
 .site-header {
-    max-width: 1100px;
+    max-width: 1180px;
     margin: 0 auto;
 
-    padding: 38px 40px;
+    padding: 34px 45px;
 
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .logo {
     color: #111111;
+
     text-decoration: none;
 
-    font-size: 22px;
-    font-weight: normal;
-    letter-spacing: -0.3px;
+    font-size: 21px;
 }
 
 .navigation {
     display: flex;
-    gap: 28px;
+    gap: 30px;
 }
 
 .navigation a {
     color: #555555;
+
     text-decoration: none;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.08em;
+
+    font-size: 10px;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
 }
 
@@ -67,117 +70,150 @@ body {
 }
 
 
-/* ------------------------------
-   Main
-   ------------------------------ */
+/* =================================
+   MAIN
+   ================================= */
 
 main {
-    max-width: 900px;
+    max-width: 1060px;
+
     margin: 0 auto;
-    padding: 0 40px;
+
+    padding: 0 45px;
 }
 
 
-/* ------------------------------
-   Intro
-   ------------------------------ */
+/* =================================
+   INTRO
+   ================================= */
 
 .intro {
     max-width: 650px;
 
-    padding-top: 120px;
-    padding-bottom: 150px;
-
-    font-size: 27px;
-    line-height: 1.45;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
 .intro p {
-    margin: 0 0 12px 0;
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 1.4;
+
+    letter-spacing: -0.3px;
 }
 
 
-/* ------------------------------
-   Featured
-   ------------------------------ */
-
-.section-label {
-    margin: 0 0 35px 0;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-
-    color: #777777;
-}
+/* =================================
+   FEATURED STORY
+   ================================= */
 
 .featured {
+    display: grid;
+
+    grid-template-columns: 1.15fr 0.85fr;
+
+    gap: 75px;
+
+    align-items: center;
+
     padding-bottom: 150px;
 }
 
-.featured-story {
-    max-width: 700px;
+.featured-image {
+    width: 100%;
 }
 
-.category {
-    margin: 0 0 12px 0;
+.image-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+
+    background: #eeeeee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #999999;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
 
-    color: #777777;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
-.featured-story h1 {
+.featured-content {
+    max-width: 390px;
+}
+
+.section-label {
+    margin: 0 0 24px 0;
+
+    color: #777777;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 10px;
+    letter-spacing: 0.14em;
+
+    text-transform: uppercase;
+}
+
+.featured-content h1 {
     margin: 0;
 
-    font-size: 64px;
+    font-size: 62px;
     font-weight: normal;
-    line-height: 1.05;
+
+    line-height: 1;
+
     letter-spacing: -2px;
 }
 
 .excerpt {
-    margin: 25px 0 30px 0;
+    margin: 25px 0 32px 0;
 
-    font-size: 20px;
     color: #555555;
+
+    font-size: 19px;
 }
 
 .read-link {
     color: #111111;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-
     text-decoration: none;
 
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 10px;
+    letter-spacing: 0.12em;
+
+    text-transform: uppercase;
+
     border-bottom: 1px solid #111111;
+
     padding-bottom: 4px;
 }
 
 
-/* ------------------------------
-   Writing sections
-   ------------------------------ */
+/* =================================
+   WRITING SECTIONS
+   ================================= */
 
 .writing-section {
-    padding: 80px 0;
+    padding: 75px 0;
 
     border-top: 1px solid #e5e5e5;
 }
 
 .writing {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    min-height: 75px;
 
-    padding: 20px 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
 
     border-bottom: 1px solid #eeeeee;
 }
@@ -185,105 +221,137 @@ main {
 .writing h2 {
     margin: 0;
 
-    font-size: 30px;
+    font-size: 28px;
     font-weight: normal;
 }
 
 .writing-meta {
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-
     color: #888888;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 10px;
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
 }
 
 
-/* ------------------------------
-   About
-   ------------------------------ */
+/* =================================
+   ABOUT
+   ================================= */
 
 .about {
-    max-width: 650px;
+    max-width: 700px;
 
-    padding: 120px 0 150px 0;
+    padding: 120px 0 150px;
 
     border-top: 1px solid #e5e5e5;
 }
 
 .about-text {
-    font-size: 25px;
+    margin: 0;
+
+    font-size: 27px;
     line-height: 1.5;
 }
 
 
-/* ------------------------------
-   Footer
-   ------------------------------ */
+/* =================================
+   FOOTER
+   ================================= */
 
 .site-footer {
-    max-width: 1100px;
+    max-width: 1180px;
+
     margin: 0 auto;
 
-    padding: 35px 40px;
+    padding: 35px 45px;
+
+    display: flex;
+    justify-content: space-between;
 
     border-top: 1px solid #e5e5e5;
 
     color: #888888;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    letter-spacing: 0.08em;
+
+    font-size: 9px;
+    letter-spacing: 0.1em;
+
     text-transform: uppercase;
 }
 
+.site-footer p {
+    margin: 0;
+}
 
-/* ------------------------------
-   Mobile
-   ------------------------------ */
+
+/* =================================
+   MOBILE
+   ================================= */
 
 @media (max-width: 700px) {
 
     .site-header {
-        padding: 25px 22px;
-
         display: block;
+
+        padding: 25px 22px;
     }
 
     .logo {
         display: block;
-        margin-bottom: 20px;
+
+        margin-bottom: 18px;
     }
 
     .navigation {
-        gap: 16px;
+        gap: 18px;
+
         flex-wrap: wrap;
     }
 
     .navigation a {
-        font-size: 10px;
+        font-size: 9px;
     }
+
 
     main {
         padding: 0 22px;
     }
 
+
     .intro {
         padding-top: 75px;
-        padding-bottom: 90px;
+        padding-bottom: 80px;
+    }
 
+    .intro p {
         font-size: 23px;
     }
 
+
     .featured {
+        display: block;
+
         padding-bottom: 100px;
     }
 
-    .featured-story h1 {
-        font-size: 48px;
+    .featured-image {
+        margin-bottom: 45px;
     }
+
+    .featured-content {
+        max-width: 100%;
+    }
+
+    .featured-content h1 {
+        font-size: 49px;
+    }
+
 
     .writing-section {
         padding: 60px 0;
@@ -297,13 +365,15 @@ main {
         display: none;
     }
 
+
     .about {
-        padding: 90px 0 110px 0;
+        padding: 90px 0 110px;
     }
 
     .about-text {
         font-size: 22px;
     }
+
 
     .site-footer {
         padding: 30px 22px;
