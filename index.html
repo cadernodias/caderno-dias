@@ -24,13 +24,19 @@
 
 <body>
 
+    <a class="skip-link" href="#main-content">
+        Pular para o conteúdo principal
+    </a>
+    
     <header class="site-header">
 
-        <a href="index.html" class="logo">
-            Caderno Dias
-        </a>
+        <h1 class="site-title">
+            <a href="index.html" class="logo">
+                Caderno Dias
+            </a>
+        </h1>
 
-        <nav class="navigation">
+        <nav class="navigation" aria-label="Navegação principal">
             <a href="#contos">Contos</a>
             <a href="#fragmentos">Fragmentos</a>
             <a href="#ensaios">Ensaios</a>
@@ -40,7 +46,7 @@
     </header>
 
 
-    <main>
+    <main id="main-content">
 
         <!-- APRESENTAÇÃO -->
 
@@ -60,7 +66,7 @@
             <div class="featured-image">
                 <img
                     src="images/o_abraco.png"
-                    alt="Avenida urbana em preto e branco"
+                    alt="Uma fotografia em preto e branco mostra uma avenida larga cercada por edifícios altos. À esquerda, árvores projetam sombra sobre a calçada de mosaico português. Ao centro, uma pessoa caminha sozinha em direção à perspectiva dos prédios, enquanto sua sombra se alonga pelo chão. A avenida, quase vazia, ocupa o lado direito da imagem."
                 >
             </div>
 
@@ -70,15 +76,19 @@
                     Conto
                 </p>
 
-                <h1>
+                <h2>
                     O abraço
-                </h1>
+                </h2>
 
                 <p class="excerpt">
                     Aconteceu no meio da avenida.
                 </p>
 
-                <a href="#" class="read-link">
+               <a
+                    href="#"
+                    class="read-link"
+                    aria-label="Ler o conto O abraço"
+                >
                     Ler conto
                 </a>
 
@@ -91,17 +101,13 @@
 
         <section id="contos" class="writing-section">
 
-            <p class="section-label">
-                Contos
-            </p>
+            <h2 class="section-label">Contos</h2>
 
-            <article class="writing">
+          <article class="writing">
 
-                <div>
-                    <h2>
-                        O abraço
-                    </h2>
-                </div>
+                <h3>
+                    O abraço
+                </h3>
 
                 <p class="writing-meta">
                     Conto
@@ -111,11 +117,9 @@
 
             <article class="writing">
 
-                <div>
-                    <h2>
-                        O julgamento
-                    </h2>
-                </div>
+                <h3>
+                    O julgamento
+                </h3>
 
                 <p class="writing-meta">
                     Conto
@@ -130,17 +134,15 @@
 
         <section id="fragmentos" class="writing-section">
 
-            <p class="section-label">
-                Fragmentos
-            </p>
-
-            <article class="writing">
-
-                <h2>
-                    Em breve
-                </h2>
-
-            </article>
+            <h2 class="section-label">Fragmentos</h2>
+        
+                <article class="writing">
+            
+                    <h3>
+                        Em breve
+                    </h3>
+        
+                </article>
 
         </section>
 
@@ -149,17 +151,15 @@
 
         <section id="ensaios" class="writing-section">
 
-            <p class="section-label">
-                Ensaios
-            </p>
-
-            <article class="writing">
-
-                <h2>
-                    Em breve
-                </h2>
-
-            </article>
+                <h2 class="section-label">Ensaios</h2>
+        
+                <article class="writing">
+        
+                    <h3>
+                        Em breve
+                    </h3>
+        
+                 </article>
 
         </section>
 
@@ -168,15 +168,13 @@
 
         <section id="sobre" class="about">
 
-            <p class="section-label">
-                Sobre
-            </p>
+            <h2 class="section-label">Sobre</h2>
 
-            <p class="about-text">
-                Caderno Dias é um espaço dedicado à escrita,
-                à memória e às coisas que permanecem depois
-                que a história termina.
-            </p>
+                <p class="about-text">
+                    Caderno Dias é um espaço dedicado à escrita,
+                    à memória e às coisas que permanecem depois
+                    que a história termina.
+                </p>
 
         </section>
 
