@@ -299,7 +299,7 @@ main {
     margin-bottom: 55px;
 }
 
-.story-header h2 {
+.story-header h1 {
     margin: 0;
 
     font-size: 48px;
@@ -472,7 +472,7 @@ main {
         margin-bottom: 55px;
     }
 
-    .story-header h2 {
+    .story-header h1 {
         font-size: 38px;
 
         letter-spacing: -1px;
