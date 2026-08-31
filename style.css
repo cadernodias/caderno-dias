@@ -283,6 +283,65 @@ main {
     line-height: 1.5;
 }
 
+/* =================================
+   PÁGINA DE CONTO
+   ================================= */
+
+.story {
+    max-width: 720px;
+
+    margin: 0 auto;
+
+    padding: 120px 0 150px;
+}
+
+.story-header {
+    margin-bottom: 55px;
+}
+
+.story-header h1 {
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: normal;
+
+    font-style: italic;
+    line-height: 1.1;
+
+    letter-spacing: -1.5px;
+}
+
+.story-meta {
+    margin: 20px 0 0 0;
+
+    color: #777777;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 11px;
+    letter-spacing: 0.04em;
+}
+
+.story-text {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.story-text p {
+    margin: 0 0 32px 0;
+}
+
+.story-text p:last-child {
+    margin-bottom: 0;
+}
+
+.story-footer {
+    margin-top: 90px;
+
+    padding-top: 30px;
+
+    border-top: 1px solid #e5e5e5;
+}
 
 /* =================================
    FOOTER
@@ -399,6 +458,38 @@ main {
         font-size: 22px;
     }
 
+   /* =================================
+       PÁGINA DE CONTO - MOBILE
+       ================================= */
+
+    .story {
+        max-width: 100%;
+
+        padding: 75px 0 100px;
+    }
+
+    .story-header {
+        margin-bottom: 55px;
+    }
+
+    .story-header h1 {
+        font-size: 38px;
+
+        letter-spacing: -1px;
+    }
+
+    .story-text {
+        font-size: 19px;
+        line-height: 1.8;
+    }
+
+    .story-text p {
+        margin-bottom: 28px;
+    }
+
+    .story-footer {
+        margin-top: 65px;
+    }
 
     .site-footer {
         padding: 30px 22px;
